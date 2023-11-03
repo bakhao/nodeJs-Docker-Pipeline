@@ -21,7 +21,7 @@ jobs:
           node-version: 16  # Adjust the Node.js version as needed
 
       - name: Run the app
-        run: npm app  # Replace "start" with the appropriate npm script
+        run: npm run app  # Replace "start" with the appropriate npm script
 
       - name: Run tests (if present)
         run: npm test --if-present
