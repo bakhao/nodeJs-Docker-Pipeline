@@ -15,4 +15,3 @@ jobs:
         with:
           node-version: 16
       - run: npm run
-      - run: echo actions/setup-node@v3
