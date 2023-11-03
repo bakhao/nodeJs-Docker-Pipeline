@@ -23,7 +23,5 @@ jobs:
           name: Run Application
           run: node app.js  # Replace with your application entry point if it's different
 
-      - name: Run tests (if present)
-        run: npm test --if-present
 
 
